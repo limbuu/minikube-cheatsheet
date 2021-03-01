@@ -18,16 +18,16 @@ $ minikube delete
 ```
 ## Advanced Commands
 ### profile
-* Default Profile
+* Start/Create a Default Profile
 ```
 $ minikube start --vm-driver=virtualbox
 ```
-* New Profile
+* Start/Create a New Profile
 ```
 $ minikube start --vm-driver=virtualbox -p <profile-name>
 ```
 
-* Profile/Cluster with specific resources (CPU and RAM)
+* Start/Create a Profile/Cluster with specific resources (CPU and RAM)
 ```
 $ minikube start --vm-driver=virtualbox -p <profile-name> --cpus=2 --memory=2048
 ```
@@ -35,7 +35,7 @@ $ minikube start --vm-driver=virtualbox -p <profile-name> --cpus=2 --memory=2048
 ```
 $ minikube profile list
 ```
-* Delete Profile/Cluster
+* Delete a existing Profile/Cluster
 ```
 $ minikube delete -p <profile-name>
 ```
@@ -44,11 +44,11 @@ $ minikube delete -p <profile-name>
 $ minikube delete --all
 ```
 ### dashboard
-* Accessing Dasboard for default profile/cluster
+* Access Dasboard for default profile/cluster
 ```
 $ minikube dashboard
 ```
-* Accessing Dashboard for specific profile/cluster
+* Access Dashboard for specific profile/cluster
 ```
 $ minikube dashboard -p <profile-name>
 ```
