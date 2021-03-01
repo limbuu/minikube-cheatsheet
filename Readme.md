@@ -39,7 +39,7 @@ $ minikube profile list
 ```
 $ minikube delete -p <profile-name>
 ```
- Delete all Profiles/Clusters
+* Delete all Profiles/Clusters
 ```
 $ minikube delete --all
 ```
