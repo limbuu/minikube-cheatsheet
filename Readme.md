@@ -35,7 +35,7 @@ $ minikube start --vm-driver=virtualbox -p <profile-name> --cpus=2 --memory=2048
 ```
 $ minikube profile list
 ```
-* Delete a existing Profile/Cluster
+* Delete an existing Profile/Cluster
 ```
 $ minikube delete -p <profile-name>
 ```
